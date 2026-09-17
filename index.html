@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Masudur Sadik Rifat — CSE student, AI & Data Science enthusiast, creator and video editor." />
+  <title>Masudur Sadik Rifat — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav shell">
+      <a href="#home" class="brand" id="brandText">RIFAT<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#tech">Tech</a>
+        <a href="#creative">Creative</a>
+        <a href="#experience">Journey</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" id="resumeNav" href="#" target="_blank" rel="noreferrer">
+        Resume <i data-lucide="arrow-up-right"></i>
+      </a>
+      <button class="menu-btn" aria-label="Open menu" id="menuBtn"><i data-lucide="menu"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> CSE × AI × Creative</div>
+        <h1>
+          I build with
+          <span class="gradient-text">intelligence</span>
+          and create with
+          <span class="outline-text">story.</span>
+        </h1>
+        <p class="hero-sub" id="heroIntro"></p>
+
+        <div class="hero-actions">
+          <a href="#tech" class="btn primary">Explore my work <i data-lucide="arrow-down-right"></i></a>
+          <a href="#creative" class="btn secondary">Watch creative work <i data-lucide="play"></i></a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Based in</span>
+            <strong id="basedIn">Dhaka, Bangladesh</strong>
+          </div>
+          <div>
+            <span class="meta-label">Focus</span>
+            <strong>ML · AI · Data · Content</strong>
+          </div>
+          <div>
+            <span class="meta-label">Status</span>
+            <strong class="status">Open to opportunities</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="profile-card glass">
+          <div class="profile-top">
+            <span>PORTFOLIO / 2026</span>
+            <span class="mini-pill">BRACU</span>
+          </div>
+          <div class="profile-avatar" id="profileAvatar">MR</div>
+          <div class="profile-info">
+            <p class="micro">MASUDUR SADIK</p>
+            <h2>RIFAT</h2>
+            <div class="profile-tags">
+              <span>AI / ML</span><span>DATA SCIENCE</span><span>CREATOR</span><span>EDITOR</span>
+            </div>
+          </div>
+          <div class="profile-lines">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="floating-card glass floating-tech">
+          <i data-lucide="brain-circuit"></i>
+          <div><small>TECH SIDE</small><strong>Machine Learning</strong></div>
+        </div>
+
+        <div class="floating-card glass floating-creative">
+          <i data-lucide="clapperboard"></i>
+          <div><small>CREATIVE SIDE</small><strong>Reels & Video</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee-wrap">
+      <div class="marquee">
+        <span>PYTHON</span><b>✦</b><span>MACHINE LEARNING</span><b>✦</b><span>DATA SCIENCE</span><b>✦</b>
+        <span>VIDEO EDITING</span><b>✦</b><span>ON-CAMERA</span><b>✦</b><span>STORYTELLING</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b><span>MACHINE LEARNING</span><b>✦</b><span>DATA SCIENCE</span><b>✦</b>
+        <span>VIDEO EDITING</span><b>✦</b><span>ON-CAMERA</span><b>✦</b><span>STORYTELLING</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-head reveal">
+        <span class="kicker">01 / About</span>
+        <h2>One person.<br><span>Two worlds.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="big-copy">I’m <strong>Masudur Sadik Rifat</strong>, a CSE student at <strong>BRAC University</strong> exploring the intersection of technology, creativity and storytelling.</p>
+          <p id="aboutText"></p>
+          <a href="#contact" class="text-link">Let's build something interesting <i data-lucide="arrow-right"></i></a>
+        </div>
+        <div class="dual-cards reveal delay-1">
+          <article class="side-card tech-side">
+            <i data-lucide="code-2"></i>
+            <span>TECH</span>
+            <h3>Build & Analyze</h3>
+            <p>ML systems, AI experiments, data analysis and practical software.</p>
+          </article>
+          <article class="side-card creative-side">
+            <i data-lucide="sparkles"></i>
+            <span>CREATIVE</span>
+            <h3>Create & Perform</h3>
+            <p>Brand reels, short-form editing, visual storytelling and on-camera work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tech-section" id="tech">
+      <div class="shell">
+        <div class="section-head horizontal reveal">
+          <div>
+            <span class="kicker">02 / Tech Portfolio</span>
+            <h2>Selected <span>projects.</span></h2>
+          </div>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section class="section creative-section" id="creative">
+      <div class="shell">
+        <div class="section-head horizontal reveal">
+          <div>
+            <span class="kicker">03 / Creative Portfolio</span>
+            <h2>Made for the <span>screen.</span></h2>
+          </div>
+          <p>Brand reels, acting work, edits and short-form content — all in one visual gallery.</p>
+        </div>
+        <div class="creative-grid" id="creativeGrid"></div>
+      </div>
+    </section>
+
+    <section class="section skills-section">
+      <div class="shell">
+        <div class="section-head reveal">
+          <span class="kicker">04 / Skills</span>
+          <h2>My <span>toolkit.</span></h2>
+        </div>
+        <div class="skills-board reveal">
+          <div>
+            <p class="skills-label">TECHNICAL</p>
+            <div class="skill-cloud" id="techSkills"></div>
+          </div>
+          <div>
+            <p class="skills-label">CREATIVE</p>
+            <div class="skill-cloud" id="creativeSkills"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="experience">
+      <div class="shell">
+        <div class="section-head reveal">
+          <span class="kicker">05 / Journey</span>
+          <h2>Experience & <span>education.</span></h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section class="section links-section">
+      <div class="shell">
+        <div class="section-head horizontal reveal">
+          <div>
+            <span class="kicker">06 / Links</span>
+            <h2>Elsewhere <span>online.</span></h2>
+          </div>
+        </div>
+        <div class="link-grid" id="linkGrid"></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner reveal">
+        <span class="kicker light">07 / Contact</span>
+        <h2>Have an idea?<br><span>Let’s make it real.</span></h2>
+        <p id="contactLine"></p>
+        <div class="contact-actions">
+          <a id="emailBtn" class="btn light-btn" href="mailto:" aria-label="Email">Email me <i data-lucide="mail"></i></a>
+          <a id="resumeBtn" class="btn ghost-btn" href="#" target="_blank" rel="noreferrer">View Resume <i data-lucide="file-text"></i></a>
+        </div>
+        <div class="contact-footer">
+          <span>© <span id="year"></span> Masudur Sadik Rifat</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="Close"><i data-lucide="x"></i></button>
+      <div class="video-frame" id="videoFrame"></div>
+      <div class="modal-copy">
+        <span id="modalType"></span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

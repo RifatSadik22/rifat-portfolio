@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local temp files
+*.log
+
+# Optional build artifacts
+node_modules/
+dist/
+build/
