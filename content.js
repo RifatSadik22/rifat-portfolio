@@ -25,6 +25,17 @@ const portfolio = {
   // Add, remove, or reorder projects here.
   projects: [
     {
+      title: "Smart Door Security & Anti-Tailgating System",
+      category: "Embedded Systems & Security",
+      year: "2026",
+      description:
+        "Contributed to an Arduino UNO and ESP32-S3 smart-door prototype combining RFID access control, directional IR people counting and camera-based sensor fusion to detect tailgating and forced entry.",
+      tags: ["Arduino", "ESP32-S3", "RFID", "Sensor Fusion", "C++"],
+      image: "./assets/smart-door-prototype.jpg",
+      liveUrl: "https://github.com/JaberAhmad555/smart-door-anti-tailgating-system",
+      githubUrl: "https://github.com/JaberAhmad555/smart-door-anti-tailgating-system"
+    },
+    {
       title: "Autonomous Flying Delivery Robot",
       category: "Robotics & AI",
       year: "2025",
