@@ -118,8 +118,7 @@ const portfolio = {
       brand: "Cooper's",
       description:
         "A creative experiment reel built around mood, timing and visual expression for a brand-led concept.",
-      thumbnail:
-        "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1000&q=85",
+      thumbnail: "./assets/creative-lightbulb.svg",
       videoUrl: "https://www.instagram.com/reel/DXjQuOhRPrt/?hl=en"
     }
   ],
@@ -153,6 +152,13 @@ const portfolio = {
   journey: [
     {
       date: "Present",
+      title: "AI Intern",
+      place: "FlyRank AI",
+      description:
+        "Currently working as an AI intern at FlyRank AI, gaining hands-on experience with artificial intelligence in a professional setting."
+    },
+    {
+      date: "Present",
       title: "BSc in Computer Science & Engineering",
       place: "BRAC University",
       description:
@@ -171,6 +177,21 @@ const portfolio = {
       place: "Video Editing & Social Content",
       description:
         "Editing videos, creating short reels and enhancing pictures for brands and personal content through visual storytelling and social media-ready edits."
+    }
+  ],
+
+  certificates: [
+    {
+      title: "AI Fluency Certificate",
+      issuer: "AI Fluency",
+      file: "./assets/ai-fluency-certificate.pdf",
+      format: "PDF"
+    },
+    {
+      title: "IEEE COMSOC ML Playbook Certificate",
+      issuer: "IEEE COMSOC",
+      file: "./assets/ieee-comsoc-ml-playbook-certificate.png",
+      format: "PNG"
     }
   ],
 

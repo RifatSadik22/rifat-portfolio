@@ -134,6 +134,20 @@ function renderLinks() {
   `).join("");
 }
 
+function renderCertificates() {
+  $("#certificateGrid").innerHTML = portfolio.certificates.map(certificate => `
+    <a class="certificate-card reveal" href="${certificate.file}" target="_blank" rel="noreferrer">
+      <span class="certificate-mark"><i data-lucide="award"></i></span>
+      <span class="certificate-copy">
+        <span class="certificate-issuer">${certificate.issuer}</span>
+        <strong>${certificate.title}</strong>
+      </span>
+      <span class="certificate-format">${certificate.format}</span>
+      <i class="certificate-arrow" data-lucide="arrow-up-right"></i>
+    </a>
+  `).join("");
+}
+
 function setupReveal() {
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -160,6 +174,7 @@ renderCreative();
 renderSkills();
 renderJourney();
 renderLinks();
+renderCertificates();
 lucide.createIcons();
 setupReveal();
 setupCursor();

@@ -229,6 +229,21 @@ img{display:block;width:100%}
 .timeline-item .place{font-size:.78rem;color:#848b98;margin-top:5px}
 .timeline-item .desc{color:#9fa6b2;font-size:.88rem}
 
+.certificates-section{background:#090b10}
+.certificate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.certificate-card{
+  min-height:126px;padding:22px;border:1px solid var(--line);display:flex;align-items:center;gap:18px;
+  background:linear-gradient(115deg,rgba(200,255,61,.07),rgba(255,255,255,.015));transition:.25s
+}
+.certificate-card:hover{border-color:rgba(200,255,61,.5);background:rgba(200,255,61,.08)}
+.certificate-mark{width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;color:var(--lime);border:1px solid rgba(200,255,61,.3)}
+.certificate-mark svg{width:22px}
+.certificate-copy{display:grid;gap:5px;flex:1;min-width:0}
+.certificate-issuer{font-size:.64rem;letter-spacing:.12em;color:#a5acb8;text-transform:uppercase}
+.certificate-copy strong{font-family:"Space Grotesk";font-size:1.08rem;line-height:1.25}
+.certificate-format{font-size:.62rem;letter-spacing:.1em;color:#a5acb8}
+.certificate-arrow{width:17px;flex:0 0 17px;color:var(--lime)}
+
 .links-section{background:#08090d}
 .link-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .social-card{
@@ -284,6 +299,7 @@ img{display:block;width:100%}
   .creative-card:nth-child(even){translate:0}
   .skills-board{grid-template-columns:1fr}
   .link-grid{grid-template-columns:1fr 1fr}
+  .certificate-grid{grid-template-columns:1fr}
 }
 @media(max-width:700px){
   :root{--shell:min(100% - 26px,1180px)}
