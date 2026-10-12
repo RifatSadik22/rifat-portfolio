@@ -13,7 +13,7 @@ const portfolio = {
     degree: "BSc in Computer Science & Engineering",
     location: "Dhaka, Bangladesh",
     email: "rsadik298@gmail.com",
-    resumeUrl: "./assets/Masudur_Sadik_Rifat_CV.pdf",
+    resumeUrl: "./assets/Masudur_Sadik_Rifat_CV.pdf?v=20261012-2133",
     heroIntro:
       "CSE student at BRAC University working with Machine Learning, AI and Data Science — while also creating, editing and performing in short-form brand content.",
     about:
