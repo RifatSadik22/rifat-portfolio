@@ -12,8 +12,8 @@ const portfolio = {
     university: "BRAC University",
     degree: "BSc in Computer Science & Engineering",
     location: "Dhaka, Bangladesh",
-    email: "",
-    resumeUrl: "./assets/Rifat CV.pdf",
+    email: "rsadik298@gmail.com",
+    resumeUrl: "./assets/Masudur_Sadik_Rifat_CV.pdf",
     heroIntro:
       "CSE student at BRAC University working with Machine Learning, AI and Data Science — while also creating, editing and performing in short-form brand content.",
     about:
