@@ -193,6 +193,18 @@ const portfolio = {
 
   certificates: [
     {
+      title: "AI Marketing Certificate of Completion",
+      issuer: "FlyRank",
+      file: "./assets/flyrank-ai-marketing-certificate.pdf",
+      format: "PDF"
+    },
+    {
+      title: "AI Fluency Certificate of Completion",
+      issuer: "FlyRank",
+      file: "./assets/flyrank-ai-fluency-certificate.pdf",
+      format: "PDF"
+    },
+    {
       title: "AI Fluency Certificate",
       issuer: "AI Fluency",
       file: "./assets/ai-fluency-certificate.pdf",
